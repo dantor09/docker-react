@@ -22,7 +22,7 @@ RUN npm install
 COPY . .
 
 # Compile a build file that will be used for the NGINX image.
-CMD npm run build
+RUN npm run build
 EXPOSE 80
 # This is the run phase of the docker file
 FROM nginx
