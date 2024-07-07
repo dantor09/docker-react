@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h1 style={{ color: 'yellow' }} >Daniel Torres: <br></br> Software & Network Engineer</h1>
+        <h1 style={{ color: 'yellow' }} >Daniel Torres: <br></br> Software & Network Engineer, Bakersfield, CA</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
