@@ -10,8 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-      - run: docker build -t dannybuilds/react-front-end -f Dockerfile.dev .
-      - run: docker run -e CI=true dannybuilds/react-front-end npm test
+      - run: docker build -t dannybuilds/react-front-end -f Dockerfile.test.dev .
+      - run: docker run -e CI=true dannybuilds/react-front-end npm run test
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
