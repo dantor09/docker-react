@@ -1,3 +1,4 @@
+# This Dockerfile is used for when we want to deploy to a production server.
 # This is the build phase of the docker file.
 
 # Download the node image with alpine
@@ -7,7 +8,7 @@ FROM node:16-alpine AS builder
 # as /app
 WORKDIR '/app'
 
-# Copy over the package.json file from out local directory
+# Copy over the package.json file from our local directory
 # into the current working directory (app) inside of our
 # container
 COPY package.json .

@@ -11,7 +11,7 @@ function App() {
         </p>
         <h1 style={{ color: 'yellow' }} >Daniel Torres: <br></br> Software & Network Engineer, Bakersfield, CA</h1>
         <div className="banner">
-          <p>This is SOOO FUCKING COOL, deploying to AWS Elastic Beanstalk</p>
+          <p>Hi luis torres this is danny saying hi</p>
         </div>
         <a
           className="App-link"
