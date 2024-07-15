@@ -23,7 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.main-header {
+  background-color: black ;
+  height: 20px;
+  margin: 20px 20px;
+  margin-left: 25%;
+  border-radius: 2px;
+}
+p {
+  margin: 0px 5px;
+}
 .banner {
   display: flex;
   height: 50px;
