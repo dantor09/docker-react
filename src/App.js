@@ -12,6 +12,7 @@ function App() {
         <h1 style={{ color: 'yellow' }} >Daniel Torres: <br></br> Software & Network Engineer, Bakersfield, CA</h1>
         <div className="banner">
           <p class='main-header'>Please order your pizza here</p>
+          <a class="portfolio-link" href="https://www.dtorresml.tech/">dannyml.tech</a>
         </div>
         <a
           className="App-link"
